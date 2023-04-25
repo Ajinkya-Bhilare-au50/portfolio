@@ -7,6 +7,7 @@ import Project from "./components/Project";
 import Testimonial from "./components/Testimonial";
 import "./index.css";
 import SkillsProgressBar from "./components/SkillsProgressBar";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   return (
@@ -16,11 +17,9 @@ function App() {
       <About />
       <Carousel />
       <Project />
-      <div className="w-96">
-        <SkillsProgressBar skill={"html"} percent={"60"} />
-        <SkillsProgressBar skill={"CSS"} percent={"90"} />
-      </div>
+      <SkillsProgressBar />
       <Testimonial />
+      <ScrollToTopButton/>
     </div>
   );
 }

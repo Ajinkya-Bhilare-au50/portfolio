@@ -35,7 +35,7 @@ function Testimonial() {
               </div>
               <div className="p-4 bg-gray-100">
                 <p className="font-bold">Bharat Khanna</p>
-                <p>CTO, XYZ Company</p>
+                <p>CTO, Gauranteed Insurance Company</p>
               </div>
             </div>
           </div>

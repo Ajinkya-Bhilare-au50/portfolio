@@ -1,5 +1,5 @@
 import React from "react";
-import ajinkya from "../images/Ajinkya2b.png"
+import ajinkya from "../images/Ajinkya2b.png";
 function Home() {
   return (
     <div className="bg-gray-50 flex ">
@@ -20,9 +20,9 @@ function Home() {
             Portfolio
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            My name is Ajinkya, and I'm a fullstack Web-Developer.{" "}
+            My name is Ajinkya Bhilare and I'm a Fullstack Web-Developer.
             <div>
-              I'm specialized in MERN stack, and I'm passionate about building
+              I'm specialized in MERN stack and I'm passionate about building
               Scalable websites.
             </div>
           </p>

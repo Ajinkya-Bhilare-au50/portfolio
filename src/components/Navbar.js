@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 function Navbar() {
   return (
-    <nav className="bg-white shadow-lg">
+    <nav id="nav" className="bg-white shadow-lg">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -76,25 +76,31 @@ function Navbar() {
               <div className="flex space-x-4">
                 <a
                   href="#navbar"
-                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-white hover:bg-indigo-500"
                 >
                   Home
                 </a>
                 <a
                   href="#about"
-                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-white hover:bg-indigo-500"
                 >
                   About
                 </a>
                 <a
                   href="#projects"
-                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-white hover:bg-indigo-500"
                 >
                   Projects
                 </a>
                 <a
-                  href="#"
-                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  href="#skills"
+                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-white hover:bg-indigo-500"
+                >
+                  Skills
+                </a>
+                <a
+                  href="#contact"
+                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-white hover:bg-indigo-500"
                 >
                   Contact
                 </a>
@@ -110,25 +116,25 @@ function Navbar() {
       <div className="sm:hidden" id="mobile-menu">
         <div className="px-2 pt-2 pb-3 space-y-1">
           <a
-            href="#"
+            href="#home"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
           >
             Home
           </a>
           <a
-            href="#"
+            href="#about"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
           >
             About
           </a>
           <a
-            href="#"
+            href="#skills"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
           >
-            Services
+            Skills
           </a>
           <a
-            href="#"
+            href="#contact"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
           >
             Contact
