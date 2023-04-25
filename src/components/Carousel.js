@@ -9,9 +9,12 @@ function Carousel() {
           <div className="w-full md:w-1/3 px-3 mb-10">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4">
-                <p className="text-gray-500 mb-4">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  et ante nec mauris sodales convallis."
+                <p className="text-gray-500 mb-4  line-clamp-4">
+                  I have worked with Ajinkya on several Development projects,
+                  and I am always impressed by his ability to create compelling
+                  website content. He has a knack for storytelling and always
+                  manages to capture the essence of our brand. 
+                  recommended
                 </p>
                 <div className="flex items-center">
                   <img
@@ -20,7 +23,7 @@ function Carousel() {
                     alt="Person"
                   />
                   <div>
-                    <p className="font-bold text-gray-900">John Doe</p>
+                    <p className="font-bold text-gray-900">Jayesh Parikh</p>
                     <p className="text-gray-500">CEO, ABC Company</p>
                   </div>
                 </div>
@@ -30,10 +33,12 @@ function Carousel() {
           <div className="w-full md:w-1/3 px-3 mb-10">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4">
-                <p className="text-gray-500 mb-4">
-                  "Suspendisse ornare odio a tristique eleifend. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit. Sed et ante nec
-                  mauris sodales convallis."
+                <p className="text-gray-500 mb-4 line-clamp-4">
+                  "I was in a time crunch and needed content for my website
+                  ASAP. Ajinkya came through for me and delivered exactly what I
+                  needed, on time and on budget. His writing is top-notch, and
+                  he was a pleasure to work with. I would definitely hire him
+                  again!"
                 </p>
                 <div className="flex items-center">
                   <img
@@ -42,8 +47,8 @@ function Carousel() {
                     alt="Person"
                   />
                   <div>
-                    <p className="font-bold text-gray-900">Jane Doe</p>
-                    <p className="text-gray-500">CTO, XYZ Company</p>
+                    <p className="font-bold text-gray-900">Smita Chaudhary</p>
+                    <p className="text-gray-500">CTO, Blue Company</p>
                   </div>
                 </div>
               </div>
@@ -52,9 +57,11 @@ function Carousel() {
           <div className="w-full md:w-1/3 px-3 mb-10">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4">
-                <p className="text-gray-500 mb-4">
-                  "Fusce tristique eleifend elit, non sagittis elit convallis
-                  ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                <p className="text-gray-500 mb-4 line-clamp-4">
+                  I have worked with Ajinkya on several Development projects,
+                  and I am always impressed by his ability to create compelling
+                  website content. he always
+                  manages the essence of our brand. Highly recommended
                 </p>
                 <div className="flex items-center">
                   <img
@@ -63,8 +70,8 @@ function Carousel() {
                     alt="Person"
                   />
                   <div>
-                    <p className="font-bold text-gray-900">Bob Smith</p>
-                    <p className="text-gray-500">COO, PQR Company</p>
+                    <p className="font-bold text-gray-900">Sujit Patel</p>
+                    <p className="text-gray-500">COO, MT associates Company</p>
                   </div>
                 </div>
               </div>

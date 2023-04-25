@@ -10,14 +10,15 @@ function Testimonial() {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4">
                 <p className="text-gray-500">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  et ante nec mauris sodales convallis. Suspendisse ornare odio
-                  a tristique eleifend."
+                  "I have worked with Ajinkya on several Development projects, and I
+                  am always impressed by his ability to create compelling website
+                  content. He has a knack for storytelling and always manages to
+                  capture the essence of our brand. I highly recommend him "
                 </p>
               </div>
               <div className="p-4 bg-gray-100">
-                <p className="font-bold">John Doe</p>
-                <p>CEO, ABC Company</p>
+                <p className="font-bold">Faran Joshi</p>
+                <p>CEO, Opera Company</p>
               </div>
             </div>
           </div>
@@ -25,12 +26,15 @@ function Testimonial() {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4">
                 <p className="text-gray-500">
-                  "Fusce tristique eleifend elit, non sagittis elit convallis
-                  ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  "I was blown away by the quality of work that Ajinkya produced
+                  for our website. His attention to detail and ability to write
+                  engaging copy is unparalleled. We received so many compliments
+                  on our website thanks to his contributions. I would definitely
+                  work with him again!"
                 </p>
               </div>
               <div className="p-4 bg-gray-100">
-                <p className="font-bold">Jane Smith</p>
+                <p className="font-bold">Bharat Khanna</p>
                 <p>CTO, XYZ Company</p>
               </div>
             </div>

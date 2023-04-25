@@ -75,26 +75,26 @@ function Navbar() {
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
                 <a
-                  href="#"
-                  className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  href="#navbar"
+                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                 >
                   Home
                 </a>
                 <a
-                  href="#"
-                  className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  href="#about"
+                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                 >
                   About
                 </a>
                 <a
-                  href="#"
-                  className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  href="#projects"
+                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                 >
-                  Services
+                  Projects
                 </a>
                 <a
                   href="#"
-                  className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                 >
                   Contact
                 </a>
