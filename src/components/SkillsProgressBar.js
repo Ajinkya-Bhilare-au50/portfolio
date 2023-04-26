@@ -2,7 +2,7 @@ import React from "react";
 
 function SkillsProgressBar() {
   return (
-    <section id="skills"  className="py-20">
+    <section id="skills" className="py-20">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-10">Professional Skills</h2>
         {/* skill1 */}
@@ -17,6 +17,36 @@ function SkillsProgressBar() {
               style={{ width: `80%` }}
             >
               80%
+            </div>
+          </div>
+        </div>
+        {/* skill2 */}
+        <div className="my-4">
+          <div className="flex items-center justify-between">
+            <span className="font-semibold">CSS</span>
+            <span className="text-xs font-semibold">85%</span>
+          </div>
+          <div className="overflow-hidden h-8 mt-1 bg-gray-200 rounded-full">
+            <div
+              className="h-full text-center pt-2 text-xs text-white font-bold bg-indigo-500"
+              style={{ width: `85%` }}
+            >
+              85%
+            </div>
+          </div>
+        </div>
+        {/* skill3 */}
+        <div className="my-4">
+          <div className="flex items-center justify-between">
+            <span className="font-semibold">JavaScript</span>
+            <span className="text-xs font-semibold">90%</span>
+          </div>
+          <div className="overflow-hidden h-8 mt-1 bg-gray-200 rounded-full">
+            <div
+              className="h-full text-center pt-2 text-xs text-white font-bold bg-indigo-500"
+              style={{ width: `90%` }}
+            >
+              90%
             </div>
           </div>
         </div>

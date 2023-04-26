@@ -18,8 +18,8 @@ function About() {
         </p>
         <a
           alt="h"
-          href="/"
-          className="bg-blue-500 text-white py-3 px-6 rounded-lg hover:bg-blue-600"
+          href="#sayings"
+          className="bg-indigo-500 text-white py-3 px-6 rounded-lg hover:bg-indigo-700"
         >
           Learn More
         </a>

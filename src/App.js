@@ -8,6 +8,7 @@ import Testimonial from "./components/Testimonial";
 import "./index.css";
 import SkillsProgressBar from "./components/SkillsProgressBar";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Project />
       <SkillsProgressBar />
       <Testimonial />
-      <ScrollToTopButton/>
+      <ScrollToTopButton />
+      
     </div>
   );
 }

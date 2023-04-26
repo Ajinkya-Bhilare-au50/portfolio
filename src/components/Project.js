@@ -4,7 +4,7 @@ function Project() {
   return (
     <section id="projects" className="py-20">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-10">Our Projects</h2>
+        <h2 className="text-3xl font-bold mb-10">My Projects</h2>
         <div className="flex flex-wrap justify-center">
           <div className="w-full md:w-1/3 px-3 mb-10">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">

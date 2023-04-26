@@ -26,11 +26,10 @@ function ScrollToTopButton() {
       {/* Render button only if showButton state is true */}
       {showButton && (
         <button
-          className="fixed right-4 bottom-4 p-4 rounded-full bg-gray-600 text-white shadow-lg hover:bg-gray-700 transition-colors duration-300"
+          className="fixed right-4 bottom-4 p-4 rounded-full bg-gray-600 text-white shadow-lg hover:bg-indigo-500 transition-colors duration-300"
           onClick={scrollToTop}
         >
-          
-                  <BsFillArrowUpCircleFill size={30 } />
+          <BsFillArrowUpCircleFill size={30} />
         </button>
       )}
     </>

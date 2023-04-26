@@ -13,8 +13,7 @@ function Carousel() {
                   I have worked with Ajinkya on several Development projects,
                   and I am always impressed by his ability to create compelling
                   website content. He has a knack for storytelling and always
-                  manages to capture the essence of our brand. 
-                  recommended
+                  manages to capture the essence of our brand. recommended
                 </p>
                 <div className="flex items-center">
                   <img
@@ -36,7 +35,7 @@ function Carousel() {
                 <p className="text-gray-500 mb-4 line-clamp-4">
                   "I was in a time crunch and needed content for my website
                   ASAP. Ajinkya came through for me and delivered exactly what I
-                  needed, on time and on budget. His writing is top-notch, and
+                  needed, on time and on budget. His web-design is top-notch and
                   he was a pleasure to work with. I would definitely hire him
                   again!"
                 </p>
@@ -60,8 +59,8 @@ function Carousel() {
                 <p className="text-gray-500 mb-4 line-clamp-4">
                   I have worked with Ajinkya on several Development projects,
                   and I am always impressed by his ability to create compelling
-                  website content. he always
-                  manages the essence of our brand. Highly recommended
+                  website content. he always manages the essence of our brand.
+                  Highly recommended
                 </p>
                 <div className="flex items-center">
                   <img
