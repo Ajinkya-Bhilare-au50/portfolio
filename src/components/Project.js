@@ -1,5 +1,6 @@
 import React from 'react';
-
+import twitter from "../images/twitter.png"
+import stackoverflow from "../images/stackoverflow.png"
 function Project() {
   return (
     <section id="projects" className="py-20">
@@ -8,13 +9,11 @@ function Project() {
         <div className="flex flex-wrap justify-center">
           <div className="w-full md:w-1/3 px-3 mb-10">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img
-                className="w-full"
-                src="https://source.unsplash.com/random/400x400"
-                alt="Project"
-              />
+              <img className="w-full" src={twitter} alt="Project" />
               <div className="p-4">
-                <h3 className="font-bold mb-2">Project 1</h3>
+                <h3 className="font-bold mb-2">
+                  TWITTER-The Social Networking App
+                </h3>
                 <p className="text-gray-500">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                   et ante nec mauris sodales convallis.
@@ -24,17 +23,13 @@ function Project() {
           </div>
           <div className="w-full md:w-1/3 px-3 mb-10">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img
-                className="w-full"
-                src="https://source.unsplash.com/random/401x401"
-                alt="Project"
-              />
+              <img className="w-full" src={stackoverflow} alt="Project" />
               <div className="p-4">
                 <h3 className="font-bold mb-2">Project 2</h3>
                 <p className="text-gray-500">
                   Suspendisse ornare odio a tristique eleifend. Lorem ipsum
                   dolor sit amet, consectetur adipiscing elit. Sed et ante nec
-                  mauris sodales convallis.
+                  
                 </p>
               </div>
             </div>
