@@ -9,13 +9,11 @@ function About() {
           I'm committed to create high-quality, user-focused solutions that meet
           my clients' needs. Whether I'm working on a small website or a
           large-scale application, I always strive for excellence and attention
-          to detail.
+          to detail.<br></br>Take a look around my portfolio to see some of my past work
+          and get a sense of what I can do. If you're interested in working
+          together, please don't hesitate to get in touch!
         </p>
-        <p className="text-gray-500 mb-10">
-          Take a look around my portfolio to see some of my past work and get a
-          sense of what I can do. If you're interested in working together,
-          please don't hesitate to get in touch!
-        </p>
+        
         <a
           alt="h"
           href="#sayings"

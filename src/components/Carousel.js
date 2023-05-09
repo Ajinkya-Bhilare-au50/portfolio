@@ -1,5 +1,7 @@
 import React from "react";
-
+import smita from "../images/smita.jpg";
+import sujit from "../images/sujit.jpg";
+import jayesh from "../images/jayesh.jpg";
 function Carousel() {
   return (
     <section className="py-20">
@@ -18,12 +20,12 @@ function Carousel() {
                 <div className="flex items-center">
                   <img
                     className="w-10 h-10 rounded-full mr-4"
-                    src="https://source.unsplash.com/random/400x400"
+                    src={jayesh}
                     alt="Person"
                   />
                   <div>
                     <p className="font-bold text-gray-900">Jayesh Parikh</p>
-                    <p className="text-gray-500">CEO, ABC Company</p>
+                    <p className="text-gray-500">CEO, Piping Company</p>
                   </div>
                 </div>
               </div>
@@ -42,7 +44,7 @@ function Carousel() {
                 <div className="flex items-center">
                   <img
                     className="w-10 h-10 rounded-full mr-4"
-                    src="https://source.unsplash.com/random/400x401"
+                    src={smita}
                     alt="Person"
                   />
                   <div>
@@ -65,7 +67,7 @@ function Carousel() {
                 <div className="flex items-center">
                   <img
                     className="w-10 h-10 rounded-full mr-4"
-                    src="https://source.unsplash.com/random/400x402"
+                    src={sujit}
                     alt="Person"
                   />
                   <div>
