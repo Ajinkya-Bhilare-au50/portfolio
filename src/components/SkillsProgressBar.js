@@ -50,6 +50,51 @@ function SkillsProgressBar() {
             </div>
           </div>
         </div>
+        {/* skill4 */}
+        <div className="my-4">
+          <div className="flex items-center justify-between">
+            <span className="font-semibold">React-Js</span>
+            <span className="text-xs font-semibold">90%</span>
+          </div>
+          <div className="overflow-hidden h-8 mt-1 bg-gray-200 rounded-full">
+            <div
+              className="h-full text-center pt-2 text-xs text-white font-bold bg-indigo-500"
+              style={{ width: `90%` }}
+            >
+              90%
+            </div>
+          </div>
+        </div>
+        {/* skill5 */}
+        <div className="my-4">
+          <div className="flex items-center justify-between">
+            <span className="font-semibold">Tailwind CSS</span>
+            <span className="text-xs font-semibold">88%</span>
+          </div>
+          <div className="overflow-hidden h-8 mt-1 bg-gray-200 rounded-full">
+            <div
+              className="h-full text-center pt-2 text-xs text-white font-bold bg-indigo-500"
+              style={{ width: `88%` }}
+            >
+              88%
+            </div>
+          </div>
+        </div>
+        {/* skill6 */}
+        <div className="my-4">
+          <div className="flex items-center justify-between">
+            <span className="font-semibold">Material UI</span>
+            <span className="text-xs font-semibold">88%</span>
+          </div>
+          <div className="overflow-hidden h-8 mt-1 bg-gray-200 rounded-full">
+            <div
+              className="h-full text-center pt-2 text-xs text-white font-bold bg-indigo-500"
+              style={{ width: `88%` }}
+            >
+              88%
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -21,6 +21,7 @@ function App() {
       <SkillsProgressBar />
       <Testimonial />
       <ScrollToTopButton />
+      <ContactUs/>
       
     </div>
   );
