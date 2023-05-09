@@ -25,5 +25,5 @@ function About() {
     </section>
   );
 }
-
+// learn
 export default About;
