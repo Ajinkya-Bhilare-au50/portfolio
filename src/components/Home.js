@@ -20,7 +20,9 @@ function Home() {
             Portfolio
           </p>
           <p className="max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            My name is Ajinkya Bhilare and I'm a Fullstack Web-Developer.
+            My name is <strong>Ajinkya Bhilare</strong> & <br />
+            I'm a{" "}
+            <strong>Fullstack Web-Developer.</strong>
             <div>
               I'm specialized in MERN stack and I'm passionate about building
               Scalable websites.

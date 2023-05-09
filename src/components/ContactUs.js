@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Socialicons from "./Socialicons";
 
 function ContactForm() {
   const [name, setName] = useState("");
@@ -27,8 +28,9 @@ function ContactForm() {
   };
 
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-0">
       <div className="container mx-auto p-10 ">
+        <h2 className="text-3xl font-bold mb-10 text-center">Get in Touch</h2>
         <form
           onSubmit={handleSubmit}
           className="w-full max-w-lg mx-auto p-4 border border-gray-300 rounded-lg"
@@ -92,7 +94,8 @@ function ContactForm() {
             </button>
           </div>
         </form>
-      </div>
+          </div>
+          <Socialicons/>
     </section>
   );
 }

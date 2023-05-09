@@ -12,7 +12,7 @@ import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
-    <div className="p-10">
+    <div className="p-10 flex-wrap max-w-fit">
       <Navbar />
       <Home />
       <About />
