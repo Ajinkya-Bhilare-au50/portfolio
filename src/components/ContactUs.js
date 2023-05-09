@@ -28,8 +28,11 @@ function ContactForm() {
 
   return (
     <section id="contact" className="py-20">
-      <div className="container mx-auto">
-        <form onSubmit={handleSubmit} className="w-full max-w-lg mx-auto">
+      <div className="container mx-auto p-10 ">
+        <form
+          onSubmit={handleSubmit}
+          className="w-full max-w-lg mx-auto p-4 border border-gray-300 rounded-lg"
+        >
           <div className="mb-4">
             <label
               htmlFor="name"
