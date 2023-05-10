@@ -7,7 +7,7 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FiGithub } from "react-icons/fi";
 const Socialicons = () => {
   return (
-    <div className="flex gap-2 justify-center ">
+    <div className="flex gap-2 justify-center px-5  h-20 items-center">
       <div className="bg-gray-300  hover:bg-black hover:cursor-pointer hover:text-pink-100">
         <a
           href="https://www.linkedin.com/in/ajinkya-bhilare"

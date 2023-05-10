@@ -29,11 +29,11 @@ function ContactForm() {
 
   return (
     <section id="contact" className="py-0">
-      <div className="container mx-auto p-10 ">
+      <div className="container lg:w-1/2 mx-auto sm:p-0 lg:p-20">
         <h2 className="text-3xl font-bold mb-10 text-center">Get in Touch</h2>
         <form
           onSubmit={handleSubmit}
-          className="w-full max-w-lg mx-auto p-4 border border-gray-300 rounded-lg"
+          className=" w-md mx-auto p-4 border border-gray-300 rounded-lg"
         >
           <div className="mb-4">
             <label
