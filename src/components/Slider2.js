@@ -20,7 +20,7 @@ export default function App() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="w-1/3"
+        className="w-1/2"
       >
         <SwiperSlide>
           <img className="w-full" src={image1} alt="" />
