@@ -5,7 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import image1 from "../images/image1.jpg";
+import image1 from "../images/image1.png";
+import image2 from "../images/image2.png";
+import image3 from "../images/image3.png";
+import image4 from "../images/image4.png";
+import image5 from "../images/image5.png";
+
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
@@ -13,7 +18,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 // Define custom styles for the Swiper slider
 const styles = {
   container: {
-    backgroundColor: "blue",
+    backgroundColor: "#F3F4F6",
   },
   slide: {
     backgroundColor: "red",
@@ -34,7 +39,7 @@ export default function App() {
         }}
         slidesPerView={1}
         autoplay={{
-          delay: 2000,
+          delay: 1000,
           disableOnInteraction: false,
         }}
         speed={1000}
@@ -47,20 +52,23 @@ export default function App() {
         className="w-1/2 m-14"
         style={styles.container}
       >
+        <h2 className="text-3xl font-bold m-10 text-center ">
+          Stunning Webpages
+        </h2>
         <SwiperSlide style={styles.slide}>
           <img className="w-full sm:w-full" src={image1} alt="" />
         </SwiperSlide>
         <SwiperSlide style={styles.slide}>
-          <img className="w-full sm:w-full" src={image1} alt="" />
+          <img className="w-full sm:w-full" src={image2} alt="" />
         </SwiperSlide>
         <SwiperSlide style={styles.slide}>
-          <img className="w-full" src={image1} alt="" />
+          <img className="w-full" src={image3} alt="" />
         </SwiperSlide>
         <SwiperSlide style={styles.slide}>
-          <img className="w-full sm:w-full" src={image1} alt="" />
+          <img className="w-full sm:w-full" src={image4} alt="" />
         </SwiperSlide>
         <SwiperSlide style={styles.slide}>
-          <img className="w-full sm:w-full" src={image1} alt="" />
+          <img className="w-full sm:w-full" src={image5} alt="" />
         </SwiperSlide>
         <SwiperSlide style={styles.slide}>
           <img className="w-full sm:w-full" src={image1} alt="" />
