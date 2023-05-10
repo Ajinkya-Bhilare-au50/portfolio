@@ -10,7 +10,7 @@ import image2 from "../images/image2.png";
 import image3 from "../images/image3.png";
 import image4 from "../images/image4.png";
 import image5 from "../images/image5.png";
-
+import image6 from "../images/image6.png";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
@@ -28,7 +28,7 @@ const styles = {
     textShadow: "1px 2px 9px #F4AAB9",
   },
 };
-// 
+//
 export default function App() {
   return (
     <>
@@ -49,11 +49,11 @@ export default function App() {
           prevEl: ".swiper-button-prev",
         }}
         modules={[Autoplay, Pagination, Navigation]}
-        className="w-1/2 m-14"
+        className="lg:w-1/2 m-14 "
         style={styles.container}
       >
-        <h2 className="text-3xl font-bold m-10 text-center ">
-          Stunning Webpages
+        <h2 className="text-3xl font-bold m-10 text-center sm:w-full">
+          Stunning Webpages using React-JS
         </h2>
         <SwiperSlide style={styles.slide}>
           <img className="w-full sm:w-full" src={image1} alt="" />
@@ -71,16 +71,7 @@ export default function App() {
           <img className="w-full sm:w-full" src={image5} alt="" />
         </SwiperSlide>
         <SwiperSlide style={styles.slide}>
-          <img className="w-full sm:w-full" src={image1} alt="" />
-        </SwiperSlide>
-        <SwiperSlide style={styles.slide}>
-          <img className="w-full sm:w-full" src={image1} alt="" />
-        </SwiperSlide>
-        <SwiperSlide style={styles.slide}>
-          <img className="w-full sm:w-full" src={image1} alt="" />
-        </SwiperSlide>
-        <SwiperSlide style={styles.slide}>
-          <img className="w-full sm:w-full object-cover" src={image1} alt="" />
+          <img className="w-full sm:w-full" src={image6} alt="" />
         </SwiperSlide>
 
         <div className="swiper-button-next" style={styles.arrow}></div>
