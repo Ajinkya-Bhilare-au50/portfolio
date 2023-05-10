@@ -5,6 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FiGithub } from "react-icons/fi";
+// 
 const Socialicons = () => {
   return (
     <div className="flex gap-2 justify-center px-5  h-20 items-center">
