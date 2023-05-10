@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.51c583b3.css",
-    "main.js": "/portfolio/static/js/main.fe545813.js",
+    "main.js": "/portfolio/static/js/main.a7433f9b.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Ajinkya2b.png": "/portfolio/static/media/Ajinkya2b.e9efcd312fd76941bc23.png",
     "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.e1783d65f7ce843b2559.png",
     "static/media/twitter.png": "/portfolio/static/media/twitter.bf1f5224ffb5976426a5.png",
+    "static/media/image1.jpg": "/portfolio/static/media/image1.25ba755b5bdd7e54ef66.jpg",
     "static/media/sujit.jpg": "/portfolio/static/media/sujit.82b9320797704f66e3e2.jpg",
     "static/media/stackoverflow.png": "/portfolio/static/media/stackoverflow.9589e74d4cb3aa1ed0f5.png",
     "static/media/smita.jpg": "/portfolio/static/media/smita.6d8c19f6db5ab0b1c899.jpg",
     "static/media/jayesh.jpg": "/portfolio/static/media/jayesh.2ce9359c6bc5001f1c50.jpg",
     "index.html": "/portfolio/index.html",
     "main.51c583b3.css.map": "/portfolio/static/css/main.51c583b3.css.map",
-    "main.fe545813.js.map": "/portfolio/static/js/main.fe545813.js.map",
+    "main.a7433f9b.js.map": "/portfolio/static/js/main.a7433f9b.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51c583b3.css",
-    "static/js/main.fe545813.js"
+    "static/js/main.a7433f9b.js"
   ]
 }
