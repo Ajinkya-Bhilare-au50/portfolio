@@ -22,7 +22,6 @@ function App() {
       <Project />
       <SkillsProgressBar />
       <Testimonial />
-
       <Slider2 />
       <ScrollToTopButton />
       <ContactUs />

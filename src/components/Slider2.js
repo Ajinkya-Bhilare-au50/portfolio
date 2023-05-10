@@ -23,31 +23,31 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={image1} alt="" />
+          <img className="w-full" src={image1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image1} alt="" />
+          <img className="w-full" src={image1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image1} alt="" />
+          <img className="w-full" src={image1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image1} alt="" />
+          <img className="w-full" src={image1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image1} alt="" />
+          <img className="w-full" src={image1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image1} alt="" />
+          <img className="w-full" src={image1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image1} alt="" />
+          <img className="w-full" src={image1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image1} alt="" />
+          <img className="w-full" src={image1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image1} alt="" />
+          <img className="w-full" src={image1} alt="" />
         </SwiperSlide>
       </Swiper>
     </>
