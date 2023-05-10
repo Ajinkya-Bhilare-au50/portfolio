@@ -4,6 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
+import { FiGithub } from "react-icons/fi";
 const Socialicons = () => {
   return (
     <div className="flex gap-2 justify-center ">
@@ -27,6 +28,15 @@ const Socialicons = () => {
       </div>
       <div className="bg-gray-300  hover:bg-black hover:cursor-pointer hover:text-pink-100">
         <RiInstagramFill className="cursor-pointer box-content p-4 text-gray-600 hover:text-pink-100" />
+      </div>
+      <div className="bg-gray-300  hover:bg-black hover:cursor-pointer hover:text-pink-100">
+        <a
+          href="https://github.com/Ajinkya-Bhilare-au50"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FiGithub className="cursor-pointer box-content p-4 text-gray-600 hover:text-pink-100" />
+        </a>
       </div>
     </div>
   );

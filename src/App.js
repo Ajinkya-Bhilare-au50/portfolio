@@ -10,9 +10,11 @@ import SkillsProgressBar from "./components/SkillsProgressBar";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import ContactUs from "./components/ContactUs";
 
+import Slider2 from "./components/Slider2";
+
 function App() {
   return (
-    <div className="p-10 flex-wrap max-w-fit">
+    <div className="p-12 sm:flex-wrap md:flex-wrap lg:flex-wrap  max-w-full">
       <Navbar />
       <Home />
       <About />
@@ -20,9 +22,10 @@ function App() {
       <Project />
       <SkillsProgressBar />
       <Testimonial />
+
+      <Slider2 />
       <ScrollToTopButton />
-      <ContactUs/>
-      
+      <ContactUs />
     </div>
   );
 }
