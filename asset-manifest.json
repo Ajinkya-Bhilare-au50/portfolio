@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.12fc11ff.css",
-    "main.js": "/portfolio/static/js/main.5935979c.js",
+    "main.css": "/portfolio/static/css/main.28b96450.css",
+    "main.js": "/portfolio/static/js/main.231b799d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Ajinkya2b.png": "/portfolio/static/media/Ajinkya2b.e9efcd312fd76941bc23.png",
     "static/media/image2.png": "/portfolio/static/media/image2.f07acac4fa41b5370d24.png",
@@ -15,16 +15,17 @@
     "static/media/twitter.png": "/portfolio/static/media/twitter.bf1f5224ffb5976426a5.png",
     "static/media/logoab.png": "/portfolio/static/media/logoab.5271058cea4be3a406eb.png",
     "static/media/sujit.jpg": "/portfolio/static/media/sujit.82b9320797704f66e3e2.jpg",
+    "static/media/logorow.png": "/portfolio/static/media/logorow.147823d312724a1d510a.png",
     "static/media/stackoverflow.png": "/portfolio/static/media/stackoverflow.9589e74d4cb3aa1ed0f5.png",
     "static/media/smita.jpg": "/portfolio/static/media/smita.6d8c19f6db5ab0b1c899.jpg",
     "static/media/jayesh.jpg": "/portfolio/static/media/jayesh.2ce9359c6bc5001f1c50.jpg",
     "index.html": "/portfolio/index.html",
-    "main.12fc11ff.css.map": "/portfolio/static/css/main.12fc11ff.css.map",
-    "main.5935979c.js.map": "/portfolio/static/js/main.5935979c.js.map",
+    "main.28b96450.css.map": "/portfolio/static/css/main.28b96450.css.map",
+    "main.231b799d.js.map": "/portfolio/static/js/main.231b799d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12fc11ff.css",
-    "static/js/main.5935979c.js"
+    "static/css/main.28b96450.css",
+    "static/js/main.231b799d.js"
   ]
 }
