@@ -6,7 +6,9 @@ function Carousel() {
   return (
     <section className="py-20">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-10">Testimonials</h2>
+        <h2 className="text-3xl font-bold mb-10 text-center lg:text-left">
+          Testimonials
+        </h2>
         <div className="flex flex-wrap justify-center">
           <div className="w-full md:w-1/3 px-3 mb-10">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">

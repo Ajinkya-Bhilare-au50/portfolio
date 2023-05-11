@@ -4,7 +4,7 @@ function About() {
   return (
     <section id="about" className="py-20">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-10 ">About Me</h2>
+        <h2 className="text-3xl font-bold mb-10 text-center lg:text-left">About Me</h2>
         <p className="text-gray-500 mb-10">
           I'm committed to create high-quality, user-focused solutions that meet
           my clients' needs. Whether I'm working on a small website or a

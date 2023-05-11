@@ -1,10 +1,15 @@
 import React from "react";
-
+import logorow from "../images/logorow.png"
 function SkillsProgressBar() {
   return (
     <section id="skills" className="py-20">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-10">Professional Skills</h2>
+        <h2 className="text-3xl font-bold mb-10 text-center lg:text-left">
+          Professional Skills
+        </h2>
+        <div className="flex justify-center">
+          <img className="h-full" src={logorow} alt="" />
+        </div>
         {/* skill1 */}
         <div className="my-4">
           <div className="flex items-center justify-between">
