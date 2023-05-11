@@ -14,7 +14,7 @@ import Slider2 from "./components/Slider2";
 
 function App() {
   return (
-    <div className="p-12 sm:flex-wrap md:flex-wrap lg:flex-wrap  max-w-full">
+    <div className="p-5 sm:flex-wrap md:flex-wrap lg:flex-wrap  max-w-full lg:p-12">
       <Navbar />
       <Home />
       <About />
