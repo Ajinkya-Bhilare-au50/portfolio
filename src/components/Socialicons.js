@@ -15,20 +15,20 @@ const Socialicons = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <RiLinkedinFill className="cursor-pointer box-content p-4 text-gray-600 hover:text-pink-100" />
+          <RiLinkedinFill className="cursor-pointer box-content p-3 text-gray-600 hover:text-pink-100" />
         </a>
       </div>
       <div className="bg-gray-300  hover:bg-black hover:cursor-pointer hover:text-pink-100">
-        <FaFacebookF className="cursor-pointer box-content p-4 text-gray-600 hover:text-pink-100" />
+        <FaFacebookF className="cursor-pointer box-content p-3 text-gray-600 hover:text-pink-100" />
       </div>
       <div className="bg-gray-300  hover:bg-black hover:cursor-pointer hover:text-pink-100">
-        <FaTwitter className="cursor-pointer box-content p-4 text-gray-600 hover:text-pink-100" />
+        <FaTwitter className="cursor-pointer box-content p-3 text-gray-600 hover:text-pink-100" />
       </div>
       <div className="bg-gray-300  hover:bg-black hover:cursor-pointer hover:text-pink-100">
-        <FaTelegramPlane className="cursor-pointer box-content p-4 text-gray-600 hover:text-pink-100" />
+        <FaTelegramPlane className="cursor-pointer box-content p-3 text-gray-600 hover:text-pink-100" />
       </div>
       <div className="bg-gray-300  hover:bg-black hover:cursor-pointer hover:text-pink-100">
-        <RiInstagramFill className="cursor-pointer box-content p-4 text-gray-600 hover:text-pink-100" />
+        <RiInstagramFill className="cursor-pointer box-content p-3 text-gray-600 hover:text-pink-100" />
       </div>
       <div className="bg-gray-300  hover:bg-black hover:cursor-pointer hover:text-pink-100">
         <a
@@ -36,7 +36,7 @@ const Socialicons = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FiGithub className="cursor-pointer box-content p-4 text-gray-600 hover:text-pink-100" />
+          <FiGithub className="cursor-pointer box-content p-3 text-gray-600 hover:text-pink-100" />
         </a>
       </div>
     </div>

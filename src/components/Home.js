@@ -2,6 +2,7 @@ import React from "react";
 import { Parallax } from "react-parallax";
 import ajinkya from "../images/Ajinkya2b.png";
 import imgwa from "../images/paralaximage.png";
+import Socialicons from "./Socialicons";
 function Home() {
   return (
     <Parallax bgImage={imgwa} strength={280}>
@@ -28,6 +29,7 @@ function Home() {
               I'm specialized in MERN stack and I'm passionate about building
               Scalable websites.
             </div>
+            <Socialicons/>
           </p>
         </div>
       </div>
