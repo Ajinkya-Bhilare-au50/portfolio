@@ -4,7 +4,7 @@ function Testimonial() {
   return (
     <section id="sayings" className="bg-gray-100 py-20">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-10 text-center text-center lg:text-left">
+        <h2 className="text-3xl font-bold mb-10  text-center lg:text-left">
           What People Say About Me
         </h2>
         <div className="flex flex-wrap -mx-3">
