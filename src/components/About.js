@@ -19,7 +19,7 @@ function About() {
           href="#sayings"
           className="bg-indigo-500 text-white py-3 px-6 rounded-lg hover:bg-indigo-700"
         >
-          Learn More
+          Read More
         </a>
       </div>
     </section>
