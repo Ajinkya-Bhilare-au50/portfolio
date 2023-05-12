@@ -12,6 +12,7 @@ import ContactUs from "./components/ContactUs";
 
 import Slider2 from "./components/Slider2";
 import ShowHideDiv from "./components/ShowHideDiv";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Slider2 />
       <ScrollToTopButton />
       <ContactUs />
+      <Footer/>
     </div>
   );
 }

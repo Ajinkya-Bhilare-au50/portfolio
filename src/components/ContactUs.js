@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Socialicons from "./Socialicons";
+
 
 function ContactForm() {
   const [name, setName] = useState("");
@@ -95,7 +95,7 @@ function ContactForm() {
           </div>
         </form>
           </div>
-          <Socialicons/>
+          
     </section>
   );
 }
