@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense} from "react";
 import { Parallax } from "react-parallax";
 import ajinkya from "../images/Ajinkya2b.png";
 import imgwa from "../images/paralaximage.png";
