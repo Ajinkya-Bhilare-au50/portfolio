@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-
 function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -29,16 +28,24 @@ function ContactForm() {
 
   return (
     <section id="contact" className="py-0">
-      <div className="container lg:w-1/2 mx-auto sm:p-0 lg:p-20">
-        <h2 className="text-3xl font-bold mb-10 text-center">Get in Touch</h2>
+      <div
+        className="container lg:w-1/2 mx-auto sm:p-0 lg:p-20"
+        style={{
+          background:
+            "linear-gradient(0deg, rgba(0,54,211,1) 0%, rgba(99,5,181,1) 100%)",
+        }}
+      >
+        <h2 className="text-3xl font-bold mb-10 text-center pt-6 text-white">
+          Get in Touch
+        </h2>
         <form
           onSubmit={handleSubmit}
-          className=" w-md mx-auto p-4 border border-gray-300 rounded-lg"
+          className=" w-md mx-auto p-4   rounded-lg"
         >
           <div className="mb-4">
             <label
               htmlFor="name"
-              className="block text-gray-700 font-bold mb-2"
+              className="block text-indigo-200 font-bold mb-2"
             >
               Name
             </label>
@@ -55,7 +62,7 @@ function ContactForm() {
           <div className="mb-4">
             <label
               htmlFor="email"
-              className="block text-gray-700 font-bold mb-2"
+              className="block text-indigo-200 font-bold mb-2"
             >
               Email
             </label>
@@ -72,7 +79,7 @@ function ContactForm() {
           <div className="mb-6">
             <label
               htmlFor="message"
-              className="block text-gray-700 font-bold mb-2"
+              className="block text-indigo-200 font-bold mb-2"
             >
               Message
             </label>
@@ -88,14 +95,13 @@ function ContactForm() {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="bg-indigo-500 hover:bg-indigo-700 text-white  py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-gray-800 hover:bg-gray-900 text-white  py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             >
               Submit
             </button>
           </div>
         </form>
-          </div>
-          
+      </div>
     </section>
   );
 }

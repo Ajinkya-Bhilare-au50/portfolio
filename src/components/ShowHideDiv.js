@@ -20,14 +20,15 @@ export default function ShowHideDiv() {
         <AiFillCaretDown />
       </button>
       {showDiv && (
-        <div className="bg-pink-100 flex justify-between h-8 items-center px-4">
+        <div className="bg-purple-300 flex justify-between h-8 items-center px-4 hover:font-bold">
           <span></span>
           <a
+            className="hover:font-bold"
             href="https://github.com/Ajinkya-Bhilare-au50"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Visit <FiGithub className="inline" />
+            Visit <FiGithub className="inline hover:font-bold" />
             &nbsp;Github Repository
           </a>
           <span onClick={closeDiv} style={{ cursor: "pointer" }}>
