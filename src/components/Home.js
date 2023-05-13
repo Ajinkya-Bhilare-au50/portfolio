@@ -36,7 +36,7 @@ function Home() {
               <div
                 className="hover:scale-125"
                 style={{
-                  background: "#170838",
+                  background: "",
                 }}
               >
                 <img
@@ -45,8 +45,7 @@ function Home() {
                   alt=""
                   style={{
                     width: "100%",
-                    filter:
-                      "drop-shadow(10px 5px 10px rgba(255, 255, 255, 0.6))",
+                    filter: "drop-shadow(8px 5px 3px rgba(0, 0, 0, 0.4))",
                     transition: "transform 0.2s ease-in-out",
                   }}
                 />
