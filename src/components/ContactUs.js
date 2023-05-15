@@ -16,7 +16,7 @@ function ContactForm() {
     };
 
     axios
-      .post("http://localhost:3004/portfolio", data)
+      .post("https://portfolio-17n9.onrender.com/portfolio", data)
       .then((res) => {
         console.log(res.data);
         setName("");

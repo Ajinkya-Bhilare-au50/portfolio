@@ -8,7 +8,7 @@ app.use(cors());
 
 mongoose
   .connect(
-    "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.2",
+    "mongodb+srv://ajinkya0011:simple123@cluster0.lxw9fdo.mongodb.net/Contact",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
