@@ -24,12 +24,11 @@ const ContactSchema = new mongoose.Schema({
 });
 
 const Contact = mongoose.model("Contact", ContactSchema);
-app.get("/", (req, res) => {
-  res.send("hello");
-});
+
 app.post("/portfolio", (req, res) => {
   const contact = new Contact(req.body);
   contact.save();
+  res.send("success");
 });
 
 const PORT = process.env.PORT || 3004;

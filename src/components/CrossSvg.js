@@ -12,8 +12,8 @@ const CrossSvg = () => {
         <path
           d="m6 6 12 12M6 18 18 6"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-width="1.5"
+          strokeLinecap="round"
+          strokeWidth="1.5"
         ></path>
       </svg>
     </div>
