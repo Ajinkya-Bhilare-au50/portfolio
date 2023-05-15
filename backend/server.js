@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const app = express();
 app.use(express.json());
 app.use(cors());
-
+// connectDb
 mongoose
   .connect(
     "mongodb+srv://ajinkya0011:simple123@cluster0.lxw9fdo.mongodb.net/Contact",
