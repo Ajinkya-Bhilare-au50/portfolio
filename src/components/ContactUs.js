@@ -14,8 +14,9 @@ function ContactForm() {
       email,
       message,
     };
+    console.log(data);
     axios
-      .post("/api/contact", data)
+      .post("http://localhost:3004/portfolio", data)
       .then((res) => {
         console.log(res.data);
         // Display success message to user
