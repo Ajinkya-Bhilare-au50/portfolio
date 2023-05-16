@@ -6,8 +6,12 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [formSubmitted, setFormSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsLoading(true);
+    // Debounce API call using setTimeout
+    
     // Submit form data to server or email address for processing
     const data = {
       name,
@@ -23,11 +27,13 @@ function ContactForm() {
         setEmail("");
         setMessage("");
         setFormSubmitted(true);
+        setIsLoading(false);
 
         // Display success message to user
       })
       .catch((err) => {
         console.error(err);
+        setIsLoading(false);
         // Display error message to user
       });
   };
@@ -45,7 +51,7 @@ function ContactForm() {
           Get in Touch
         </h2>
         {formSubmitted ? (
-          <p className="text-white font-bold text-center pb-5 text-2xl">
+          <p className="text-white font-bold text-center pb-5 lg:text-2xl sm:test-lg">
             Thank You for Contacting Us!
           </p>
         ) : (
@@ -106,8 +112,32 @@ function ContactForm() {
             <div className="flex justify-center">
               <button
                 type="submit"
-                className="bg-gray-800 hover:bg-gray-900 text-white  py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="bg-gray-800 flex gap-2 hover:bg-gray-900 text-white  py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               >
+                {isLoading && (
+                  <div className="ml-4">
+                    <svg
+                      className="animate-spin -ml-1 mr-3 h-5 w-5 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      ></circle>
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.352 5.792 3.499 7.709l2.5-2.418zm2.564-2.483l-2.5 2.418A7.962 7.962 0 018 12h4c0 3.042-1.352 5.792-3.499 7.709z"
+                      ></path>
+                    </svg>
+                  </div>
+                )}
                 Submit
               </button>
             </div>
