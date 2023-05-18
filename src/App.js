@@ -13,24 +13,25 @@ import ContactUs from "./components/ContactUs";
 import Slider2 from "./components/Slider2";
 import ShowHideDiv from "./components/ShowHideDiv";
 import Footer from "./components/Footer";
+import RollingDivs from "./components/RollingDivs";
 
 function App() {
-  return ( 
-      <div className="p-5 sm:flex-wrap md:flex-wrap lg:flex-wrap  max-w-full lg:p-12">
-        <ShowHideDiv />
-        <Navbar />
-        <Home />
-        <About />
-        <Carousel />
-        <Project />
-        <SkillsProgressBar />
-        <Testimonial />
-        <Slider2 />
-        <ScrollToTopButton />
-        <ContactUs />
-        <Footer />
-      </div>
-    
+  return (
+    <div className="p-5 sm:flex-wrap md:flex-wrap lg:flex-wrap  max-w-full lg:p-12">
+      <ShowHideDiv />
+      <Navbar />
+      <Home />
+      <About />
+      <Carousel />
+      <Project />
+      <SkillsProgressBar />
+      <Testimonial />
+      <Slider2 />
+      <ScrollToTopButton />
+      <ContactUs />
+      {/* <RollingDivs/> */}
+      <Footer />
+    </div>
   );
 }
 
