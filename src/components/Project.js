@@ -2,6 +2,7 @@ import React from "react";
 import twitter from "../images/twitter.png";
 import stackoverflow from "../images/stackoverflow.png";
 import ecommerce from "../images/ecommerce.png";
+
 function Project() {
   return (
     <section id="projects" className="py-20">
@@ -11,7 +12,7 @@ function Project() {
         </h2>
         <div className="flex flex-wrap justify-center">
           <div className="w-full md:w-1/3 px-3 mb-10">
-            <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4">
+            <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
               <img className="w-full" src={twitter} alt="Project" />
               <div className="p-4">
                 <h3 className="font-bold mb-2">
@@ -29,7 +30,7 @@ function Project() {
             </div>
           </div>
           <div className="w-full md:w-1/3 px-3 mb-10">
-            <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4">
+            <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
               <img className="w-full" src={stackoverflow} alt="Project" />
               <div className="p-4">
                 <h3 className="font-bold mb-2">
@@ -48,7 +49,7 @@ function Project() {
             </div>
           </div>
           <div className="w-full md:w-1/3 px-3 mb-10">
-            <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4">
+            <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
               <img className="w-full" src={ecommerce} alt="Project" />
               <div className="p-4">
                 <h3 className="font-bold mb-2">
