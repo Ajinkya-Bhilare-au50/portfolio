@@ -8,7 +8,7 @@ const RollingDivs = () => {
 
     const scroll = () => {
       scrollingWrapper.scrollTo({
-        left: scrollingWrapper.scrollLeft + 1,
+        left: scrollingWrapper.scrollLeft + 2,
         behavior: "smooth",
       });
     };
@@ -37,6 +37,7 @@ const RollingDivs = () => {
             width="80px"
           />
         </div>
+        
         <div
           className="inline-block p-4 mr-4"
           style={{ display: "inline-block" }}
@@ -145,6 +146,28 @@ const RollingDivs = () => {
             alt=""
             width="65px"
             height="30px"
+          />
+        </div>
+        <div
+          className="inline-block p-4 mr-4"
+          style={{ display: "inline-block" }}
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+            alt=""
+            width="65px"
+            height="30px"
+          />
+        </div>
+        <div
+          className="inline-block p-4 mr-4"
+          style={{ display: "inline-block" }}
+        >
+          <img
+            src="https://litslink.com/wp-content/uploads/2020/12/node.js-logo-image.png"
+            alt=""
+            width="65px"
+            height="60px"
           />
         </div>
       </div>

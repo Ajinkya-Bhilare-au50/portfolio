@@ -17,11 +17,14 @@ mongoose
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
-const ContactSchema = new mongoose.Schema({
-  name: String,
-  email: String,
-  message: String,
-});
+const ContactSchema = new mongoose.Schema(
+  {
+    name: String,
+    email: String,
+    message: String,
+  },
+  { timestamps: true }
+);
 
 const Contact = mongoose.model("Contact", ContactSchema);
 

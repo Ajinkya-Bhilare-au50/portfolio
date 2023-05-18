@@ -5,3 +5,16 @@ html {
 
 @tailwind components;
 @tailwind utilities;
+/* For Webkit based browsers (e.g. Chrome, Safari) */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-indigo-300;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-indigo-700;
+}
+  

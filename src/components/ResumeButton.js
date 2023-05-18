@@ -1,5 +1,5 @@
 import React from "react";
-
+import { BsDownload } from "react-icons/bs";
 const ResumeButton = () => {
   const handleDownload = () => {
     const resumeUrl =
@@ -10,10 +10,10 @@ const ResumeButton = () => {
 
   return (
     <button
-      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex gap-1 items-center"
       onClick={handleDownload}
     >
-      Download Resume
+      <BsDownload /> Download Resume
     </button>
   );
 };
