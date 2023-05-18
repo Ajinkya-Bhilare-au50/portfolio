@@ -96,6 +96,12 @@ function Navbar() {
                 >
                   Contact
                 </a>
+                <a
+                  href="#resume"
+                  className="px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-white hover:bg-indigo-500"
+                >
+                  Resume
+                </a>
               </div>
             </div>
           </div>

@@ -15,6 +15,7 @@ import ShowHideDiv from "./components/ShowHideDiv";
 import Footer from "./components/Footer";
 import RollingDivs from "./components/RollingDivs";
 
+
 function App() {
   return (
     <div className="p-5 sm:flex-wrap md:flex-wrap lg:flex-wrap  max-w-full lg:p-12">
@@ -29,6 +30,7 @@ function App() {
       <Slider2 />
       <ScrollToTopButton />
       <ContactUs />
+     
 
       {/* <RollingDivs /> */}
       <Footer />

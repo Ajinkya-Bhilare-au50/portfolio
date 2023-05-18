@@ -14,6 +14,7 @@ import image6 from "../images/image6.png";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
+import NumberCounter from "./NumberCounter";
 
 // Define custom styles for the Swiper slider
 const styles = {
@@ -52,8 +53,13 @@ export default function App() {
         className="lg:w-1/2 m-14 "
         style={styles.container}
       >
-        <h2 className="text-3xl font-bold m-10 text-center sm:w-full">
-          Stunning Webpages using React-JS
+        <h2 className="text-3xl font-bold m-10 text-center sm:w-full lg:flex">
+          <div className="flex justify-center">
+            <NumberCounter end={5000} duration={4000} />
+            <span>+</span>
+            <span className="lg:inline hidden">&nbsp;</span>
+          </div>
+          <p>Stunning Webpages using React-JS</p>
         </h2>
         <SwiperSlide style={styles.slide}>
           <img className="w-full sm:w-full" src={image1} alt="" />

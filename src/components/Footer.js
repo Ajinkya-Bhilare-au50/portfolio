@@ -8,7 +8,7 @@ import ResumeButton from "./ResumeButton";
 
 const Footer = () => {
   return (
-    <section className="bg-gray-900 text-gray-300 py-8 mt-5">
+    <section id="resume" className="bg-gray-900 text-gray-300 py-8 mt-5">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between px-8 items-center">
         <div className="flex flex-col items-center lg:items-start">
           <h3 className="text-xl font-bold mb-4 text-gray-400">Get in touch</h3>
@@ -34,7 +34,7 @@ const Footer = () => {
           </p>
         </div>
         <Socialicons />
-        <ResumeButton/>
+        <ResumeButton />
       </div>
     </section>
   );
