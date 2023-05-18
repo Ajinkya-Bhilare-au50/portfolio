@@ -3,6 +3,7 @@ import React from "react";
 import { FaEnvelope, FaPhone} from "react-icons/fa";
 
 import Socialicons from "./Socialicons";
+import ResumeButton from "./ResumeButton";
 
 
 const Footer = () => {
@@ -33,6 +34,7 @@ const Footer = () => {
           </p>
         </div>
         <Socialicons />
+        <ResumeButton/>
       </div>
     </section>
   );
