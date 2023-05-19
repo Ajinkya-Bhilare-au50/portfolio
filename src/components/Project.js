@@ -2,6 +2,8 @@ import React from "react";
 import twitter from "../images/twitter.png";
 import stackoverflow from "../images/stackoverflow.png";
 import ecommerce from "../images/ecommerce.png";
+import { AiFillEye } from "react-icons/ai";
+import { BiCodeAlt } from "react-icons/bi";
 
 function Project() {
   return (
@@ -12,9 +14,15 @@ function Project() {
         </h2>
         <div className="flex flex-wrap justify-center">
           <div className="w-full md:w-1/3 px-3 mb-10">
-            <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
-              <img className="w-full" src={twitter} alt="Project" />
-              <div className="p-4">
+            <div className=" h-full rounded-lg shadow-lg  overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
+              <img
+                className="w-full"
+                src={twitter}
+                alt="Project"
+                style={{ border: "1px solid black" }}
+              />
+
+              <div className="p-4 ">
                 <h3 className="font-bold mb-2">
                   TWITTER-The Social Networking App
                 </h3>
@@ -27,11 +35,26 @@ function Project() {
                   and marketing purposes.
                 </p>
               </div>
+              <div className="absolute inset-0 bg-blue-300 bg-opacity-50 flex space-x-4 items-center justify-center opacity-0 transition-opacity duration-200 hover:opacity-100">
+                <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
+                  <AiFillEye color={"white"} />
+                  <span className="font-bold text-white ">Watch</span>
+                </div>
+                <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
+                  <BiCodeAlt color={"white"} />
+                  <span className="font-bold text-white ">Code</span>
+                </div>
+              </div>
             </div>
           </div>
           <div className="w-full md:w-1/3 px-3 mb-10">
             <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
-              <img className="w-full" src={stackoverflow} alt="Project" />
+              <img
+                className="w-full"
+                src={stackoverflow}
+                alt="Project"
+                style={{ border: "1px solid black" }}
+              />
               <div className="p-4">
                 <h3 className="font-bold mb-2">
                   Stack Overflow-Code Sharing Platform
@@ -46,11 +69,27 @@ function Project() {
                   answers.
                 </p>
               </div>
+              <div className="absolute inset-0 bg-blue-300 bg-opacity-50 flex space-x-4 items-center justify-center opacity-0 transition-opacity duration-200 hover:opacity-100">
+                <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
+                  <AiFillEye color={"white"} />
+                  <span className="font-bold text-white ">Watch</span>
+                </div>
+                <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
+                  <BiCodeAlt color={"white"} />
+                  <span className="font-bold text-white ">Code</span>
+                </div>
+              </div>
             </div>
           </div>
+
           <div className="w-full md:w-1/3 px-3 mb-10">
             <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
-              <img className="w-full" src={ecommerce} alt="Project" />
+              <img
+                className="w-full"
+                src={ecommerce}
+                alt="Project"
+                style={{ border: "1px solid black" }}
+              />
               <div className="p-4">
                 <h3 className="font-bold mb-2">
                   Ecommerce-Retail Shopping Website
@@ -64,6 +103,16 @@ function Project() {
                   payment methods and shipping options, as well as customer
                   support and tracking features for orders.
                 </p>
+              </div>
+              <div className="absolute inset-0 bg-blue-300 bg-opacity-50 flex space-x-4 items-center justify-center opacity-0 transition-opacity duration-200 hover:opacity-100">
+                <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
+                  <AiFillEye color={"white"} />
+                  <span className="font-bold text-white ">Watch</span>
+                </div>
+                <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
+                  <BiCodeAlt color={"white"} />
+                  <span className="font-bold text-white ">Code</span>
+                </div>
               </div>
             </div>
           </div>
