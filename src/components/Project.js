@@ -38,11 +38,27 @@ function Project() {
               <div className="absolute inset-0 bg-blue-300 bg-opacity-50 flex space-x-4 items-center justify-center opacity-0 transition-opacity duration-200 hover:opacity-100">
                 <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
                   <AiFillEye color={"white"} />
-                  <span className="font-bold text-white ">Watch</span>
+                  <span className="font-bold text-white ">
+                    <a
+                      href="https://youtu.be/1FQRGsQ5fTI"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Watch
+                    </a>
+                  </span>
                 </div>
                 <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
                   <BiCodeAlt color={"white"} />
-                  <span className="font-bold text-white ">Code</span>
+                  <span className="font-bold text-white ">
+                    <a
+                      href="https://github.com/Ajinkya-Bhilare-au50"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Code
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -72,11 +88,27 @@ function Project() {
               <div className="absolute inset-0 bg-blue-300 bg-opacity-50 flex space-x-4 items-center justify-center opacity-0 transition-opacity duration-200 hover:opacity-100">
                 <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
                   <AiFillEye color={"white"} />
-                  <span className="font-bold text-white ">Watch</span>
+                  <span className="font-bold text-white ">
+                    <a
+                      href="https://youtu.be/Ho1dEa9XOHs"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Watch
+                    </a>
+                  </span>
                 </div>
                 <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
                   <BiCodeAlt color={"white"} />
-                  <span className="font-bold text-white ">Code</span>
+                  <span className="font-bold text-white ">
+                    <a
+                      href="https://github.com/Ajinkya-Bhilare-au50"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Code
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -107,11 +139,27 @@ function Project() {
               <div className="absolute inset-0 bg-blue-300 bg-opacity-50 flex space-x-4 items-center justify-center opacity-0 transition-opacity duration-200 hover:opacity-100">
                 <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
                   <AiFillEye color={"white"} />
-                  <span className="font-bold text-white ">Watch</span>
+                  <span className="font-bold text-white ">
+                    <a
+                      href="https://youtu.be/lcVj7GojatM"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Watch
+                    </a>
+                  </span>
                 </div>
                 <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
                   <BiCodeAlt color={"white"} />
-                  <span className="font-bold text-white ">Code</span>
+                  <span className="font-bold text-white ">
+                    <a
+                      href="https://github.com/Ajinkya-Bhilare-au50"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Code
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
