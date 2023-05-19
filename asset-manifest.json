@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.24b9f7c3.css",
-    "main.js": "/portfolio/static/js/main.f12842e3.js",
+    "main.css": "/portfolio/static/css/main.76886e3a.css",
+    "main.js": "/portfolio/static/js/main.cc92ee40.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Ajinkya2b.png": "/portfolio/static/media/Ajinkya2b.e9efcd312fd76941bc23.png",
     "static/media/image2.png": "/portfolio/static/media/image2.f07acac4fa41b5370d24.png",
@@ -10,22 +10,22 @@
     "static/media/image5.png": "/portfolio/static/media/image5.ca914b05deaead5e7932.png",
     "static/media/image1.png": "/portfolio/static/media/image1.cfed0adeb3bea7304ca8.png",
     "static/media/image3.png": "/portfolio/static/media/image3.ee3056143f6bf54d66e9.png",
+    "static/media/stackoverflow.png": "/portfolio/static/media/stackoverflow.46f582386852d936633c.png",
+    "static/media/twitter.png": "/portfolio/static/media/twitter.8a199cf106ee2bdc41e4.png",
+    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.0f7dd8276416a6312088.png",
     "static/media/ultra.jpg": "/portfolio/static/media/ultra.383afcd00948be89aa33.jpg",
-    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.e1783d65f7ce843b2559.png",
-    "static/media/twitter.png": "/portfolio/static/media/twitter.bf1f5224ffb5976426a5.png",
     "static/media/logoab.png": "/portfolio/static/media/logoab.5271058cea4be3a406eb.png",
     "static/media/sujit.jpg": "/portfolio/static/media/sujit.82b9320797704f66e3e2.jpg",
     "static/media/logorow.png": "/portfolio/static/media/logorow.147823d312724a1d510a.png",
-    "static/media/stackoverflow.png": "/portfolio/static/media/stackoverflow.9589e74d4cb3aa1ed0f5.png",
     "static/media/smita.jpg": "/portfolio/static/media/smita.6d8c19f6db5ab0b1c899.jpg",
     "static/media/jayesh.jpg": "/portfolio/static/media/jayesh.2ce9359c6bc5001f1c50.jpg",
     "index.html": "/portfolio/index.html",
-    "main.24b9f7c3.css.map": "/portfolio/static/css/main.24b9f7c3.css.map",
-    "main.f12842e3.js.map": "/portfolio/static/js/main.f12842e3.js.map",
+    "main.76886e3a.css.map": "/portfolio/static/css/main.76886e3a.css.map",
+    "main.cc92ee40.js.map": "/portfolio/static/js/main.cc92ee40.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24b9f7c3.css",
-    "static/js/main.f12842e3.js"
+    "static/css/main.76886e3a.css",
+    "static/js/main.cc92ee40.js"
   ]
 }
