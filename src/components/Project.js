@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "./Modal";
 import twitter from "../images/twitter.png";
 import stackoverflow from "../images/stackoverflow.png";
 import ecommerce from "../images/ecommerce.png";
@@ -6,6 +7,19 @@ import { AiFillEye } from "react-icons/ai";
 import { BiCodeAlt } from "react-icons/bi";
 
 function Project() {
+  const [showModal, setShowModal] = useState(false);
+  const [videoUrl, setVideoUrl] = useState("");
+
+  const openModal = (url) => {
+    setVideoUrl(url);
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setVideoUrl("");
+    setShowModal(false);
+  };
+
   return (
     <section id="projects" className="py-20">
       <div className="container mx-auto">
@@ -14,7 +28,7 @@ function Project() {
         </h2>
         <div className="flex flex-wrap justify-center">
           <div className="w-full md:w-1/3 px-3 mb-10">
-            <div className=" h-full rounded-lg shadow-lg  overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
+            <div className="h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
               <img
                 className="w-full"
                 src={twitter}
@@ -22,7 +36,7 @@ function Project() {
                 style={{ border: "1px solid black" }}
               />
 
-              <div className="p-4 ">
+              <div className="p-4">
                 <h3 className="font-bold mb-2">
                   TWITTER-The Social Networking App
                 </h3>
@@ -36,17 +50,14 @@ function Project() {
                 </p>
               </div>
               <div className="absolute inset-0 bg-blue-300 bg-opacity-50 flex space-x-4 items-center justify-center opacity-0 transition-opacity duration-200 hover:opacity-100">
-                <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
+                <div
+                  className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950"
+                  onClick={() =>
+                    openModal("https://www.youtube.com/embed/1FQRGsQ5fTI")
+                  }
+                >
                   <AiFillEye color={"white"} />
-                  <span className="font-bold text-white ">
-                    <a
-                      href="https://youtu.be/1FQRGsQ5fTI"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Watch
-                    </a>
-                  </span>
+                  <span className="font-bold text-white">Watch</span>
                 </div>
                 <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
                   <BiCodeAlt color={"white"} />
@@ -63,14 +74,16 @@ function Project() {
               </div>
             </div>
           </div>
+          {/* ... code for other projects ... */}
           <div className="w-full md:w-1/3 px-3 mb-10">
-            <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
+            <div className="h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
               <img
                 className="w-full"
                 src={stackoverflow}
                 alt="Project"
                 style={{ border: "1px solid black" }}
               />
+
               <div className="p-4">
                 <h3 className="font-bold mb-2">
                   Stack Overflow-Code Sharing Platform
@@ -86,17 +99,14 @@ function Project() {
                 </p>
               </div>
               <div className="absolute inset-0 bg-blue-300 bg-opacity-50 flex space-x-4 items-center justify-center opacity-0 transition-opacity duration-200 hover:opacity-100">
-                <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
+                <div
+                  className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950"
+                  onClick={() =>
+                    openModal("https://www.youtube.com/embed/Ho1dEa9XOHs")
+                  }
+                >
                   <AiFillEye color={"white"} />
-                  <span className="font-bold text-white ">
-                    <a
-                      href="https://youtu.be/Ho1dEa9XOHs"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Watch
-                    </a>
-                  </span>
+                  <span className="font-bold text-white">Watch</span>
                 </div>
                 <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
                   <BiCodeAlt color={"white"} />
@@ -113,15 +123,16 @@ function Project() {
               </div>
             </div>
           </div>
-
+          {/* ... code for other projects ... */}
           <div className="w-full md:w-1/3 px-3 mb-10">
-            <div className="bg-white h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
+            <div className="h-full rounded-lg shadow-lg overflow-hidden p-4 transform transition-transform duration-200 hover:scale-105">
               <img
                 className="w-full"
                 src={ecommerce}
                 alt="Project"
                 style={{ border: "1px solid black" }}
               />
+
               <div className="p-4">
                 <h3 className="font-bold mb-2">
                   Ecommerce-Retail Shopping Website
@@ -137,17 +148,14 @@ function Project() {
                 </p>
               </div>
               <div className="absolute inset-0 bg-blue-300 bg-opacity-50 flex space-x-4 items-center justify-center opacity-0 transition-opacity duration-200 hover:opacity-100">
-                <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
+                <div
+                  className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950"
+                  onClick={() =>
+                    openModal("https://www.youtube.com/embed/lcVj7GojatM")
+                  }
+                >
                   <AiFillEye color={"white"} />
-                  <span className="font-bold text-white ">
-                    <a
-                      href="https://youtu.be/lcVj7GojatM"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Watch
-                    </a>
-                  </span>
+                  <span className="font-bold text-white">Watch</span>
                 </div>
                 <div className="flex gap-2 bg-slate-800 px-4 items-center py-2 cursor-pointer hover:bg-slate-950">
                   <BiCodeAlt color={"white"} />
@@ -166,6 +174,7 @@ function Project() {
           </div>
         </div>
       </div>
+      {showModal && <Modal videoUrl={videoUrl} closeModal={closeModal} />}
     </section>
   );
 }
